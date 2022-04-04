@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <main>
+    <head><title>first Html page</title></head>  
+     <script src="val.js"></script>
+ <style>
+     .bgc{
+         background-color: black;
+     }
+ 
+     .bg-doge {
+  position: relative;
+  height: 600;
+
+  
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+}
+
+.bg-doge:before {
+  content: "";
+  background-image: url(lib.jpg);
+  position: fixed;
+  background-size:100% ;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.4;
+}
+	
+.logcol{
+	border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+background: linear-gradient(35deg,#CCFFFF,#FFCCCC)
+
+}
+	 .header{
+		background:linear-gradient(to left,#3399ff,#ff6633);
+		 padding: 0px;
+	 }
+	 .btn{
+		 background:linear-gradient(45deg,#ff6633,#3399ff);
+		 padding: 5px;
+		 width: 35%;
+		border-radius: 15px;
+		 transition: all is ease;
+		 
+	 }
+	 .btn:hover{
+		  background:linear-gradient(to right,#730c53,#1e0d72);
+	 }
+	 .put{
+		 border-radius:5px;
+		 border-color: gold;
+		 
+	 }
+
+</style> 
+<marquee style="font-size:20px; color:rgb(43, 226, 98); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"behavior="scroll" direction="left">Welcome to the Library....Sign in to Continue</marquee>
+<div>
+	  <pre style=" font-size: 18px; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'"><a style="color:white"href="1.html">Home</a>     <a style="color:white"href="2.html">Login</a></pre>
+</div>
+<center><h1 class="fonfam" style="color:white; font-size:40px ; text-align: center;">LIBRARY MANANGEMENT SYSTEM</h1></center></body><br><br>
+<body class="bg-doge bgc">
+  
+</body>
+<div class="logcol">  
+ <center><h2 class="header" style="color:white;font-size:30px;">SIGN IN</h2></center><br><br>
+ <form>
+ <label style="color:white;font-size:20px";><input  type="radio"name="Student" required>Student</label> 
+	 
+ <label style="color:white;font-size:20px";><input  type="radio"name="Student">Organisation</label><br><br>   
+ 
+<input class="put" style="font-size:20px" ;type="text" name="" placeholder="username" id="username"><br><br>
+<input class="put" style="font-size:20px"type="password" name="" placeholder="Password" id="password" ><br><br>
+	 
+	<center> <input class="btn" style="font-size: 18px" type="submit" name="" value="login" onClick=";validate()"></center>
+</form>
+	<a style="color: red" href = "3.html" target = "_self">forget password?</a><br><br>  
+<p style="text-align-last: right">No of Books available: 2312</p>
+
+</div>
+</main> 
+
+    
